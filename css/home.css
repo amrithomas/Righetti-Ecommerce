@@ -1,3 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
-    background-color: green;
+    background-color: rgb(37, 36, 36);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 2em;
+}
+
+.cabecalho--menu {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho--menu li {
+    margin-left: 10px;
+}
+
+.cabecalho--menu button {
+    font-family: 'Bebas Neue', 'sans-seriff';
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+.nav--main {
+    margin-top: 2em;
+}
+
+.nav--main ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav--main button {
+    font-family: 'Bebas Neue', 'sans-seriff';
+    font-size: 24px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+}
+
+.carousel{
+    margin: 0 auto;
+    
+}
+
+.carousel-inner  {
+       
+}
+
+.carousel-item {
+    height: 50%;
 }
